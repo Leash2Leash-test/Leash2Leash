@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1= title
+  p Leash2Leash Users
+  p
+    a(href="/users/new") Create New Profile
+  
+  each user in users
+    h2= user.first_name
+    include by_line
+    //- p= user.shortDescription()
+    a(href = "/users/" + user.id) Read More &rarr;

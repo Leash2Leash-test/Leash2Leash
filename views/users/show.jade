@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+  h1= user.first_name
+  include by_line
+  p= user.body
+  a(href="../") &larr; Back
+  | | 
+  a(href="/users/" + user.id + "/edit") Edit user
+  | | 
+  a(href="/users/" + user.id + "/delete") Delete user

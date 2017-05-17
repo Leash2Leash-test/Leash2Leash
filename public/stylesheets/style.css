@@ -1,0 +1,30 @@
+body {
+  padding: 250px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.small {
+    font-size: 10px;
+}
+.input{
+	padding: 25px;
+}
+.submit{ margin-left: 150px;
+
+}
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+/*input[type=name], textarea {
+    width: 250px;
+}*/
+
+.errors {
+    color: red;
+}
